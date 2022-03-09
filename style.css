@@ -1,0 +1,55 @@
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+}
+body{
+    background: url(ggg.jpg);
+    background-size: cover;
+}
+.login{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+
+}
+.login h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    color: rgb(255, 255, 255);
+   
+}
+.login p{
+    font-size: 20px;
+    margin: 15px 0;
+    border: black;
+    outline: black;
+   color: #fff;
+
+}
+.login input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+
+}
+.login button{
+     font-size: 18px;
+     font-weight: bold;
+     margin: 20px 0;
+     padding: 10px 15px;
+     width: 50%;
+     border-radius: 8px;
+     border: black;
+     align-items: center;
+} 
